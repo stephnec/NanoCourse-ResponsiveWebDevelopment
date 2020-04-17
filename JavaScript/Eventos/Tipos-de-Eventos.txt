@@ -1,0 +1,63 @@
+==========================EVENTOS MAIS COMUNS DO JS==========================
+
+onload - Específico para o elemento que representa a janela de navegação, 
+é disparando quando a ela está plenamente carregada (e todos os elementos 
+HTML estão ativos).
+
+-----------------------------------------------------------------------------
+
+onclick -  Disparado quando o usuário clica com o botão do mouse em cima 
+do elemento.
+
+-----------------------------------------------------------------------------
+
+onchange -  Disparado quando o elemento mudou, como o conteúdo de uma caixa
+de texto, por exemplo.
+
+-----------------------------------------------------------------------------
+
+onmouseover -  Disparado quando o ponteiro de mouse passar sobre o 
+elemento HTML
+
+-----------------------------------------------------------------------------
+
+onmouseout -  Disparado quando o ponteiro do mouse deixar/sair do 
+elemento HTML.
+
+-----------------------------------------------------------------------------
+
+onkeydown -  Disparado quando a tecla que está sendo utilizada foi 
+pressionada e está em descida. É o primeiro evento disparado em uma
+digitação.
+
+-----------------------------------------------------------------------------
+
+onkeypress - Disparado quando a tecla que está sendo utilizada foi 
+pressionada e encontra-se totalmente pressionada. É o segundo evento 
+disparado em uma digitação.
+
+-----------------------------------------------------------------------------
+
+onkeyup -  Disparado quando a tecla que está sendo utilizada foi 
+pressionada e está subindo, retornando ao estado original. É o terceiro 
+evento disparado em uma digitação.
+
+-----------------------------------------------------------------------------
+
+onsubmit -  Disparado no momento em que o formulário HTML está sendo 
+submetido ao servidor.
+
+-----------------------------------------------------------------------------
+
+onfocus -  Disparado quando o elemento em questão ganha foco. O ganho de
+foco pode acontecer de várias maneiras, a mais comum é clicando em cima
+do elemento, e a outra é através de navegação pulando de um elemento a 
+outro, uso a tecla TAB. É possível até mesmo conceder foco automaticamente 
+a um dos elementos do documento, ao final de sua carga.
+
+-----------------------------------------------------------------------------
+
+onblur -  Disparado quando o elemento em questão perde o foco, deixa de 
+estar em referência.
+
+-----------------------------------------------------------------------------
