@@ -4,14 +4,16 @@ import React, {Component} from 'react';
 class Titulo extends Component{
     constructor(props){
         super(props);
+        this.state = {texto: "Clique Aqui"}
+        this.funcao = this.funcao.bind(this);
     }
     funcao(){
-        alert("Você clicou no botão :D");
+        this.setState({texto: "você clicou no botão ;D"})
     }
     render(){
         return(
             <button onClick={this.funcao}>
-                <h1>Clique Aqui!!</h1>  
+                <h1>{this.state.texto}</h1>  
             </button>
         )
     }
