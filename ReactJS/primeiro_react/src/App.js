@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Titulo></Titulo>
+        <Titulo texto="Texto através do atributo"></Titulo>
         <p>
           Esse é meu novo texto.
         </p>

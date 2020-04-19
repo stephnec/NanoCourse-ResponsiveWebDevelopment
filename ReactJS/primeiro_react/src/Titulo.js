@@ -1,20 +1,14 @@
 import React, {Component} from 'react';
 
-/* FORMA DE CRIAR COMPONENTES
-function Titulo(){
-    return (
-        <h1>
-            Esse é meu Título
-        </h1>
-    )
-}*/
-
-//Outra forma de criar componentes
+//prop é a maneira com que o React recebe dados de entrada para um componente.
 class Titulo extends Component{
+    constructor(props){
+        super(props);
+    }
     render(){
         return(
             <h1>
-                Esse é meu Título
+                {this.props.texto}
             </h1>
         )
     }
