@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 
-//estado - característica que o componente guarda para ele mesmo
+//evento - declaração do que deve ser feito quando algo acontece
 class Titulo extends Component{
     constructor(props){
         super(props);
-        this.state = {
-            texto: "Meu Texto Padrão"
-        }
+    }
+    funcao(){
+        alert("Você clicou no botão :D");
     }
     render(){
         return(
-            <h1>
-                {this.state.texto}
-            </h1>
+            <button onClick={this.funcao}>
+                <h1>Clique Aqui!!</h1>  
+            </button>
         )
     }
 }
